@@ -1,0 +1,242 @@
+/* ---------- Шрифты ---------- */
+
+@font-face{
+    font-family: 'VWTextOffice';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/neutral/VWTextOffice.ttf);
+}
+
+@font-face{
+    font-family: 'VWTextOffice';
+    font-style: normal;
+    font-weight: bold;
+    src: url(/fonts/neutral/VWTextOffice-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'VWHeadOffice';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/neutral/VWHeadOffice.ttf);
+}
+
+@font-face{
+    font-family: 'VWHeadOffice';
+    font-style: normal;
+    font-weight: bold;
+    src: url(/fonts/neutral/VWHeadOffice-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'VisbyRoundCF';
+    font-style: normal;
+    font-weight: lighter;
+    src: url(/fonts/neutral/VisbyRoundCF-Light.ttf);
+}
+
+@font-face{
+    font-family: 'VisbyRoundCF';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/neutral/VisbyRoundCF-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'VisbyRoundCF';
+    font-style: normal;
+    font-weight: bold;
+    src: url(/fonts/neutral/VisbyRoundCF-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'URWGeometric';
+    font-style: normal;
+    font-weight: lighter;
+    src: url(/fonts/neutral/URWGeometric-Light.ttf);
+}
+
+@font-face{
+    font-family: 'URWGeometric';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/neutral/URWGeometric-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'URWGeometric';
+    font-style: normal;
+    font-weight: bold;
+    src: url(/fonts/neutral/URWGeometric-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: lighter;
+    src: url(/fonts/neutral/Roboto-Light.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/neutral/Roboto-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    src: url(/fonts/neutral/Roboto-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: lighter;
+    src: url(/fonts/neutral/Raleway-Light.ttf);
+}
+
+@font-face{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/neutral/Raleway-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    src: url(/fonts/neutral/Raleway-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: lighter;
+    src: url(/fonts/neutral/Panton-Light.ttf);
+}
+
+@font-face{
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/neutral/Panton-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Panton';
+    font-style: normal;
+    font-weight: bold;
+    src: url(/fonts/neutral/Panton-Bold.ttf);
+}
+
+@font-face{
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: lighter;
+    src: url(/fonts/neutral/OpenSans-Light.ttf);
+}
+
+@font-face{
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/fonts/neutral/OpenSans-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'OpenSans';
+    font-style: normal;
+    font-weight: bold;
+    src: url(/fonts/neutral/OpenSans-Bold.ttf);
+}
+
+
+/* ---------- Стили ---------- */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Raleway;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    width: 1240px;
+    margin: auto;
+}
+
+.headerContent{
+    background-image: url(/img/bg.png);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.06) perspective(1px);
+}
+
+.header img{
+    width: 70px;
+    height: 70px;
+    transition: .1s;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.navigation a{
+    color: white;
+    font-family: Panton;
+    font-size: 16px;
+    transition: .1s;
+}
+
+.navigation a:hover{
+    transform: scale(1.09) perspective(1px);
+}
+
+.headerInfo{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.title{
+    color: white;
+    font-family: Panton;
+    font-weight: bolder;
+}
+
+.txt{
+    color: white;
+    font-family: Panton;
+    font-size: 18px;
+    padding-top: 2%;
+}
