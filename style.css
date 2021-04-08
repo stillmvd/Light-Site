@@ -93,7 +93,7 @@ a:hover{
 }
 
 .headerContent{
-    background-image: url(/img/bg.png);
+    background-image: url(img/bg.png);
     height: 760px;
     background-position: center;
     background-repeat: no-repeat;
@@ -272,7 +272,7 @@ a:hover{
     width: 40px;
     height: 40px;
     background-color: transparent;
-    background-image: url(/img/arrowLeft.svg);
+    background-image: url(img/arrowLeft.svg);
     background-position: center;
     transition: .2s;
     border: solid rgb(0, 81, 255) 1px;
@@ -294,7 +294,7 @@ a:hover{
     width: 40px;
     height: 40px;
     background-color: transparent;
-    background-image: url(/img/arrowRight.svg);
+    background-image: url(img/arrowRight.svg);
     background-position: center;
     transition: .2s;
     border: solid rgb(0, 81, 255) 1px;
@@ -305,7 +305,7 @@ a:hover{
     width: 40px;
     height: 40px;
     background-color: transparent;
-    background-image: url(/img/arrowLeft.svg);
+    background-image: url(img/arrowLeft.svg);
     background-position: center;
     transition: .2s;
     border: solid rgb(0, 81, 255) 1px;
@@ -326,7 +326,7 @@ a:hover{
     width: 40px;
     height: 40px;
     background-color: transparent;
-    background-image: url(/img/arrowRight.svg);
+    background-image: url(img/arrowRight.svg);
     background-position: center;
     transition: .2s;
     border: solid rgb(0, 81, 255) 1px;
@@ -342,7 +342,7 @@ a:hover{
 }
 
 .leftCard{
-    background-image: url(/img/card1.png);
+    background-image: url(img/card1.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 330px;
@@ -363,7 +363,7 @@ a:hover{
 }
 
 .rightCard{
-    background-image: url(/img/card2.png);
+    background-image: url(img/card2.png);
     background-repeat: no-repeat;
     background-position: center;
     height: 330px;
@@ -462,7 +462,7 @@ a:hover{
     display: flex;
     width: 300px;
     height: 260px;
-    background-image: url(/img/1card.png);
+    background-image: url(img/1card.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -477,7 +477,7 @@ a:hover{
     display: flex;
     width: 300px;
     height: 260px;
-    background-image: url(/img/2card.png);
+    background-image: url(img/2card.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -492,7 +492,7 @@ a:hover{
     display: flex;
     width: 300px;
     height: 260px;
-    background-image: url(/img/3card.png);
+    background-image: url(img/3card.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
