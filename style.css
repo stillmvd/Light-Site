@@ -220,3 +220,548 @@ a:hover{
 .headerButton:focus{
     outline: none;
 }
+
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyBlock1{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: 10% 0%;
+}
+
+.bodyBlock2{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-bottom: 10%;
+}
+
+.bodyBlock3{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-bottom: 10%;
+}
+
+.bodyBlock4{
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin-bottom: 10%;
+}
+
+.upperSide{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.arrows{
+    display: flex;
+    flex-direction: row;
+}
+
+.arrowLeft{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(/img/arrowLeft.svg);
+    background-position: center;
+    transition: .2s;
+    border: solid rgb(0, 81, 255) 1px;
+    background-repeat: no-repeat;
+}
+
+.arrowLeft:hover{
+    transform: translateX(-7px);
+    cursor: pointer;
+}
+
+.arrowRight:hover{
+    transform: translateX(7px);
+    cursor: pointer;
+}
+
+
+.arrowRight{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(/img/arrowRight.svg);
+    background-position: center;
+    transition: .2s;
+    border: solid rgb(0, 81, 255) 1px;
+    background-repeat: no-repeat;
+}
+
+.arrowLeftSlide{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(/img/arrowLeft.svg);
+    background-position: center;
+    transition: .2s;
+    border: solid rgb(0, 81, 255) 1px;
+    background-repeat: no-repeat;
+}
+
+.arrowLeftSlide:hover{
+    transform: translateX(-7px);
+    cursor: pointer;
+}
+
+.arrowRightSlide:hover{
+    transform: translateX(7px);
+    cursor: pointer;
+}
+
+.arrowRightSlide{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    background-image: url(/img/arrowRight.svg);
+    background-position: center;
+    transition: .2s;
+    border: solid rgb(0, 81, 255) 1px;
+    background-repeat: no-repeat;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6%;
+    width: 1000px;
+}
+
+.leftCard{
+    background-image: url(/img/card1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 330px;
+    width: 480px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: .2s;
+}
+
+.leftCard:hover{
+    transform: translateY(-5px) perspective(1px);
+    box-shadow: 0px 3px 5px 1px rgb(53, 53, 53);
+}
+
+.leftCard:hover .cardInfo{
+    background-color: rgb(185, 185, 185);
+}
+
+.rightCard{
+    background-image: url(/img/card2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 330px;
+    width: 480px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    transition: .2s;
+}
+
+.rightCard:hover{
+    transform: translateY(-5px) perspective(1px);
+    box-shadow: 0px 3px 5px 1px rgb(53, 53, 53);
+}
+
+.rightCard:hover .cardInfo{
+    background-color: rgb(185, 185, 185);
+}
+
+.funny{
+    transition: .2s;
+}
+
+.achieve{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.achieve p{
+    font-family: Panton;
+    font-weight: bolder;
+    font-size: 26px;
+    color: #343434;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.cardInfo{
+    background-color: white;
+    color: #343434;
+    margin: 30px 30px;
+    padding: 20px 20px;
+    transition: .2s;
+}
+
+.cardTitle{
+    font-size: 18px;
+    color: #343434;
+}
+
+.cardText{
+    font-size: 14px;
+    width: 200px;
+    font-family: VWHeadOffice;
+}
+
+.bodyNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 240px;
+    margin-top: 6%;
+}
+
+.magic{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.bodyNav p{
+    font-size: 24px;
+    font-family: Panton;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.robe{
+    text-decoration: underline;
+    color: rgb(0, 81, 255);
+    transition: .2s;
+}
+
+.compulit{
+    color: #343434;
+    transition: .2s;
+}
+
+.compulit:hover{
+    color: rgb(0, 81, 255);
+}
+
+.cardOne{
+    display: flex;
+    width: 300px;
+    height: 260px;
+    background-image: url(/img/1card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: solid rgb(0, 81, 255) 1px;
+    transition: .2s;
+    border-radius: 6px;
+}
+
+.cardTwo{
+    display: flex;
+    width: 300px;
+    height: 260px;
+    background-image: url(/img/2card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: solid rgb(0, 81, 255) 1px;
+    transition: .2s;
+    border-radius: 6px;
+}
+
+.cardThree{
+    display: flex;
+    width: 300px;
+    height: 260px;
+    background-image: url(/img/3card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    align-items: flex-end;
+    justify-content: flex-end;
+    border: solid rgb(0, 81, 255) 1px;
+    transition: .2s;
+    border-radius: 6px;
+}
+
+.cardOne:hover{
+    transform: translateY(-5px) perspective(1px);
+    border: solid rgb(134, 134, 134) 1px;
+    box-shadow: 0px 3px 5px 1px rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+.cardTwo:hover{
+    transform: translateY(-5px) perspective(1px);
+    border: solid rgb(134, 134, 134) 1px;
+    box-shadow: 0px 3px 5px 1px rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+.cardThree:hover{
+    transform: translateY(-5px) perspective(1px);
+    border: solid rgb(134, 134, 134) 1px;
+    box-shadow: 0px 3px 5px 1px rgb(158, 158, 158);
+    cursor: pointer;
+}
+
+/* ----------    ---------- */
+
+.cardOne:hover .cardSuperInfo{
+    background-color: rgb(134, 134, 134);
+}
+
+.cardTwo:hover .cardSuperInfo{
+    background-color: rgb(134, 134, 134);
+}
+
+.cardThree:hover .cardSuperInfo{
+    background-color: rgb(134, 134, 134);
+}
+
+.cardSuperInfo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(0, 81, 255);
+    padding: 10px 5px;
+    margin-bottom: 6%;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 220px;
+    height: 40px;
+    color: white;
+    transition: .2s;
+}
+
+.leftBlock{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+.leftBlock p{
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.rightBlock{
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(0, 81, 255) 1px;
+    width: 640px;
+    transition: .2s;
+    color: #343434;
+}
+
+.rightBlock:hover{
+    border: rgb(112, 112, 112) 1px solid;
+    box-shadow: 0px 3px 5px 1px rgb(104, 104, 104);
+    transform: translateY(-4px);
+}
+
+.rightBlock:hover .arrowLeft{
+    border: solid rgb(110, 110, 110) 1px;
+}
+
+.rightBlock:hover .arrowRight{
+    border: solid rgb(110, 110, 110) 1px;
+}
+
+.upperBlock{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.upperBlock p{
+    font-size: 16px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.downBlock{
+    display: flex;
+    flex-direction: row;
+    margin: 40px;
+}
+
+.downBlock img{
+    width: 230px;
+    height: 160px;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.omg p{
+    font-size: 20px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.omg ul{
+    width: 300px;
+    padding-left: 40px;
+    line-height: 30px;
+}
+
+li{
+    font-family: VWHeadOffice;
+}
+
+.bodyButton{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(0, 81, 255);
+    color: white;
+    outline: none;
+    border: none;
+    transition: .2s;
+}
+
+.bodyButton:focus{
+    outline: none;
+}
+
+.bodyButton:hover{
+    transform: translateY(-4px);
+    cursor: pointer;
+    box-shadow: 0px 3px 5px 1px rgb(143, 143, 143);
+    background-color: white;
+    color: black;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+}
+
+.card img{
+    width: 260px;
+    height: 260px;
+}
+
+.newText{
+    display: flex;
+    flex-direction: column;
+    font-family: VWHeadOffice;
+    padding-left: 20px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.newTitle{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #343434;
+}
+
+.newUpper{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.date{
+    font-size: 18px;
+    font-family: VWHeadOffice;
+    color: #757575;
+}
+
+.newCoolText{
+    padding-top: 30px;
+    color: #646464;
+}
+
+.underlined{
+    text-decoration: underline;
+    padding-top: 36px;
+}
+
+.downCards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 70px;
+    align-items: left;
+}
+
+.footer{
+    background-color: rgb(0, 81, 255);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: VWHeadOffice;
+}
+
+.innerFooter{
+    padding: 30px 0px;
+}
+
+.first_section{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.third_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.second_section div{
+    display: flex;
+    flex-direction: column;
+}
+
+.second_section div p{
+    padding: 10px 0px;
+}
+
+hr{
+    margin: 20px 0px;
+    color: white;
+    background-color: white;
+    height: 1.3px;
+}
